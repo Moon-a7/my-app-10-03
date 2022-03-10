@@ -1,6 +1,6 @@
 import React from 'react'
 import { ReactDOM } from 'react-dom'
-import logo from './logo.svg'
+import AllPostList from './components/AllPostList'
 import './App.css'
 
 function App() {
@@ -8,7 +8,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="views">
-          <div className="all-post">all post list</div>
+          <div className="all-post">
+            {' '}
+            <AllPostList></AllPostList>
+          </div>
           <div className="post-comments">post + comments</div>
           <div className="form">form add new comments</div>
         </div>

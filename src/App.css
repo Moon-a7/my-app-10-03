@@ -5,9 +5,6 @@
   text-transform: capitalize;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,4 +20,6 @@
 }
 .form {
   background-color: darkcyan;
+}
+@media (prefers-reduced-motion: no-preference) {
 }
