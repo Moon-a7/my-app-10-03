@@ -7,6 +7,9 @@ function AllPostList() {
         <li>tu będą posty</li>
         <li> pobierz wszystkie posty do tablicy</li>
         <li>i przejdz po nich wyswietlając wszystko</li>
+        <li>tu będą posty</li>
+        <li> pobierz wszystkie posty do tablicy</li>
+        <li>i przejdz po nich wyswietlając wszystko</li>
         </ul>
     </div>
 }
