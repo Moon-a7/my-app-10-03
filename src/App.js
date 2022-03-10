@@ -2,6 +2,7 @@ import React from 'react'
 import { ReactDOM } from 'react-dom'
 import AllPostList from './components/AllPostList'
 import PostComments from './components/PostComments'
+import Form from './components/form/form'
 import './App.css'
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
           <div className="post-comments">
             <PostComments></PostComments>
           </div>
-          <div className="form">form add new comments</div>
+          <div className="form">
+            <Form></Form>
+          </div>
         </div>
       </header>
     </div>
