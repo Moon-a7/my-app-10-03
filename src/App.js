@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="views">
+          <div className="component-test">test test test</div>
           <div className="all-post">
             <AllPostList></AllPostList>
           </div>

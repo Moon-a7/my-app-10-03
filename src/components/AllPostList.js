@@ -1,12 +1,12 @@
 import React from 'react'
-import { ReactDOM } from 'react-dom'
-import { DataApi } from '../Api'
+//import { ReactDOM } from 'react-dom'
+import ComponentDidMount from './ComponentDidMount'
 
 function AllPostList() {
   return (
     <div className="wraper">
       <section>
-        <DataApi></DataApi>
+        <ComponentDidMount></ComponentDidMount>
       </section>
       <ul>
         <li>tu będą posty</li>
